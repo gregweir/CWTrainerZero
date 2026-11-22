@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=CWTrainerZero
+Comment=Offline Morse code practice for Cardputer Zero
+Exec=/usr/bin/cwtrainerzero
+Icon=share/images/cwtrainerzero.png
+Terminal=false
+Categories=Education;Utility;
+StartupNotify=false
