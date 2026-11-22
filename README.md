@@ -46,8 +46,10 @@ If needed, set `-DSDL2_DIR=/path/to/SDL2/cmake`, `-DCW_LVGL_SOURCE=/path/to/lvgl
 
 The SDL simulator uses the same LVGL UI at exactly 320 × 170, scaled up for review. The core and its tests also build without SDL/LVGL with `-DCW_BUILD_UI=OFF`.
 
-## Cardputer Zero and App Store
+## Install on Cardputer Zero
 
-Use the [device and development documentation](https://docs.m5stack.com/en/CardputerZero) and [CardputerZero App Builder](https://dev.cardputer.cc/). The device target adapts the official Template's ARM64 BSP toolchain, framebuffer and launcher conventions. It does not need a new system image. See [device validation and packaging](docs/DEVICE-TEST.md) for the toolchain, local .deb recipe and the gates before submission. No package has been submitted and this version still needs its physical device checks.
+Download the ARM64 `.deb` from [GitHub Releases](https://github.com/gregweir/CWTrainerZero/releases/latest). Check it against the supplied `SHA256SUMS`, install the package, then open **CWTrainerZero** in APPLaunch. No new system image or reflashing is needed.
+
+See the [Cardputer Zero device guide](https://docs.m5stack.com/en/CardputerZero) or the [build instructions](docs/RELEASING.md) if you want to build the package yourself.
 
 Project source is MIT-licensed; preserve the notices when sharing or adapting it. See [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md).
