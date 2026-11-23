@@ -29,7 +29,7 @@ When first opened without a v0.3 save, the app can read a CW1 or CW2 `stats` fil
 
 ## Install on Cardputer Zero
 
-**From the Cardputer Zero Store:** Open **Store** on your device, press **5** to open search, and enter the share code **`CWTZ`**. Select **CWTrainerZero** and install it, then open it from APPLaunch.
+**From the Cardputer Zero Store:** Open **Store** on your device, press **5** for **Share Code**, type **`CWTZ`**, and press **Enter**. On the **CWTrainerZero** details page, choose **Install**, then open it from APPLaunch.
 
 **Manual install:** Download the ARM64 `.deb` from [GitHub Releases](https://github.com/gregweir/CWTrainerZero/releases/latest). Check it against the supplied `SHA256SUMS`, install the package, then open **CWTrainerZero** in APPLaunch. No new system image or reflashing is needed.
 
